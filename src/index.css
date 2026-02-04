@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+}
+
+.focus-ring:focus-visible {
+  @apply outline-none ring-2 ring-ocean-500 ring-offset-2 ring-offset-white;
+}
